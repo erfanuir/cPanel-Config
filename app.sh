@@ -1,16 +1,6 @@
 #!/usr/bin/bash
 
-echo " #----------------------------------
-# cPanel
-# ConfigServer Security & Firewall (CSF)
-# ConfigServer ModSecurity Control (CMS)
-# Imunify360
-# Softaculous
-# WP Toolkit
-# JetBackup V4 / V5
-# LiteSpeed Enterprise Edition
-# CloudLinux Shared OS / Pro
-#---------------------------------- ";
+
 
 if [[ $EUID -ne 0 ]]; then
 	echo "This script must be run as root";
